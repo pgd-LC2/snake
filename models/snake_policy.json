@@ -1,0 +1,101 @@
+{
+  "agent_mode": "food_responsive_bare_nn_argmax",
+  "training_seed": 20261101,
+  "evaluation_seed_start": 76257314,
+  "target_length": 321,
+  "teacher_states": 26672,
+  "teacher_action_agreement": 1.0,
+  "training_loss": 8.062474976923764e-14,
+  "max_weight_error": 9.5367431640625e-07,
+  "feature_names": [
+    "inside",
+    "body_free",
+    "before_food",
+    "before_tail",
+    "forward",
+    "cycle_progress",
+    "food_gain",
+    "is_food",
+    "same_direction"
+  ],
+  "learned_weights": [
+    1.0,
+    1.000000238418579,
+    1.0,
+    0.9999996423721313,
+    1.0000001192092896,
+    0.019999859854578972,
+    0.2000000923871994,
+    0.5000009536743164,
+    0.0010000128531828523
+  ],
+  "episodes": [
+    {
+      "seed": 76257314,
+      "length": 321,
+      "foods": 318,
+      "steps": 36112,
+      "alive": true,
+      "reached_target": true,
+      "action_mismatches": 0,
+      "multi_successor_cells": 1528,
+      "visited_cells": 2444
+    },
+    {
+      "seed": 76257315,
+      "length": 321,
+      "foods": 318,
+      "steps": 37636,
+      "alive": true,
+      "reached_target": true,
+      "action_mismatches": 0,
+      "multi_successor_cells": 1352,
+      "visited_cells": 2425
+    },
+    {
+      "seed": 76257316,
+      "length": 321,
+      "foods": 318,
+      "steps": 36915,
+      "alive": true,
+      "reached_target": true,
+      "action_mismatches": 0,
+      "multi_successor_cells": 1505,
+      "visited_cells": 2462
+    },
+    {
+      "seed": 76257317,
+      "length": 321,
+      "foods": 318,
+      "steps": 38133,
+      "alive": true,
+      "reached_target": true,
+      "action_mismatches": 0,
+      "multi_successor_cells": 1453,
+      "visited_cells": 2472
+    },
+    {
+      "seed": 76257318,
+      "length": 321,
+      "foods": 318,
+      "steps": 39619,
+      "alive": true,
+      "reached_target": true,
+      "action_mismatches": 0,
+      "multi_successor_cells": 1435,
+      "visited_cells": 2429
+    }
+  ],
+  "baseline_steps": [
+    360862,
+    375294,
+    357994,
+    362530,
+    362420
+  ],
+  "median_steps": 37636,
+  "median_baseline_steps": 362420,
+  "median_step_ratio": 0.10311625334502812,
+  "successes": 5,
+  "elapsed_seconds": 21.33
+}

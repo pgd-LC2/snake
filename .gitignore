@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+
+# Local environments and training artifacts
+.venv*/
+runs/
+*.tmp.pt
+*.failed.pt
+
+# Local backups and large raw recordings
+backup*.tar
+BACKUP_SHA256.txt
+video_assets/recordings/*.avi
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
